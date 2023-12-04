@@ -1,3 +1,4 @@
+//MILESTONE 1
 let membri = [
     {
         nome: "Wayne Barnett",
@@ -35,4 +36,9 @@ let membri = [
         foto: "barbara-ramos-graphic-designer.jpg",
     },
 ]
-console.log(membri)
+
+//MILESTONE 2
+for(let i = 0; i<=membri.length; i++){
+    console.log(membri[i])
+}
+
