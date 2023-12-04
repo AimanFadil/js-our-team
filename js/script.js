@@ -38,7 +38,20 @@ let membri = [
 ]
 
 //MILESTONE 2
-for(let i = 0; i<=membri.length; i++){
-    console.log(membri[i])
-}
+ for(let i = 0; i<=membri.length; i++){
+    console.log(membri[i]);
+} 
 
+//MILESTONE 3
+let mostarAvideo = '';
+ for (let i = 0; i < membri.length; i++) {
+    mostarAvideo += `
+        <tr>
+            <td>${membri[i].nome}</td>
+            <td>${membri[i].ruolo}</td>
+            <td><img src="${membri[i].foto}" alt="${membri[i].nome}" /></td>
+        </tr>
+    `;
+ }
+
+ document.getElementById('membri').innerHTML = mostarAvideo;
