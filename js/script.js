@@ -39,7 +39,7 @@ let membri = [
 
 //MILESTONE 2
  for(let i = 0; i<=membri.length; i++){
-    console.log(membri[i]);
+    console.log(membri[i] );
     /* console.log(membri.nome)
     console.log(membri.ruolo)
     console.log(membri.foto) */
@@ -62,3 +62,4 @@ let mostarAvideo = '';
  }
 
  document.getElementById('membri').innerHTML = mostarAvideo;
+
